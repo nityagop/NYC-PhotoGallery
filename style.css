@@ -1,0 +1,29 @@
+/* Here is where you will put display:flexbox for each container if you wish to work with flexbox */
+
+/* You can also do img{} and put dimensions that you want all of the images to have instead of creating classes for each of them */
+
+.container {
+  /* height: 600px; */
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+img{
+  object-fit: cover; 
+  /* to prevent distortion */
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+
+}
+
+h1{
+  font-family: "Magra", sans-serif;
+  text-align: center;
+}
+
+body{
+  background-color: #f0efeb;
+}
